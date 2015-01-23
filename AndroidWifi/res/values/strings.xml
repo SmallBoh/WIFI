@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidWifi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bssid">BSSID</string>
+    <string name="_found_wifi_password">请输入创建热点密码</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_margin="6dp"
+    >
+
+    <TextView
+        android:id="@+id/wifi_bbsid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|left"
+        android:text="@string/bssid" />
+
+    <TextView
+        android:id="@+id/wifi_SSID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|left"
+        android:text="@string/bssid" />
+
+    <TextView
+        android:id="@+id/wifi_capabilities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|left"
+        android:text="@string/bssid" />
+
+    <TextView
+        android:id="@+id/wifi_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|left"
+        android:text="@string/bssid" />
+
+    <TextView
+        android:id="@+id/wifi_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|left"
+        android:text="@string/bssid" />
+
+</LinearLayout>
