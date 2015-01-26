@@ -4,46 +4,50 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical" >
 
-        <Button
-            android:id="@+id/scan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="扫描网络" />
-
-        <Button
-            android:id="@+id/start"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="打开Wifi" />
-
-        <Button
-            android:id="@+id/stop"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="关闭Wifi" />
-
-        <Button
-            android:id="@+id/check"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Wifi状态" />
-		<Button
-            android:id="@+id/wifi_enable"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="创建热点" />
-        <ListView
-            android:id="@+id/wifi_main_listview"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            android:fastScrollEnabled="false" >
-        </ListView>
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/scan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="扫描网络" />
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="打开Wifi" />
+
+            <Button
+                android:id="@+id/stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关闭Wifi" />
+
+            <Button
+                android:id="@+id/check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wifi状态" />
+
+            <Button
+                android:id="@+id/wifi_enable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创建热点" />
+            <ListView
+                android:scrollbars="none"
+                android:stackFromBottom="true"
+                android:id="@+id/wifi_main_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 >
+            </ListView>
+        </LinearLayout>
+ 
 
 </LinearLayout>

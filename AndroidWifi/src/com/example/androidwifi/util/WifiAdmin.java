@@ -132,9 +132,10 @@ public class WifiAdmin {
 	}
 
 	// 添加一个网络并连接
-	public void addNetWork(WifiConfiguration configuration) {
+	public boolean addNetWork(WifiConfiguration configuration) {
 		int wcgId = mWifiManager.addNetwork(configuration);
-		mWifiManager.enableNetwork(wcgId, true);
+		boolean network = mWifiManager.enableNetwork(wcgId, true);
+		return network;
 	}
 
 	// 断开指定ID的网络
